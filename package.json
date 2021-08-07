@@ -1,0 +1,38 @@
+{
+  "name": "express-vue",
+  "version": "1.0.0",
+  "description": "Just an Express JS with Vue starter pack (MEVN)",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "serve": "node server",
+    "dev": "mix",
+    "watch": "mix watch"
+  },
+  "keywords": [
+    "Express",
+    "Vue"
+  ],
+  "author": "Steve Nyanumba",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.27",
+    "sequelize": "^6.6.5",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
